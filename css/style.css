@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Background header */
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(59, 150, 214);
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+}
+/* Instert logo */
+.logo{
+    height: 100%;
+    width: 200px;
+    padding-top: 50px;
+}
