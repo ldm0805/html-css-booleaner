@@ -30,16 +30,19 @@ h1{
 .background-yellow{
     background-color: yellow;
 }
-  table, th, td ,tr{
+/* Inizio tabella */
+table{
+  border: none;
+}
+
+  th, td ,tr{
     padding-top: 10px;
     padding-bottom: 20px;
     padding-right: 40px;
   }
+
   thead{
     color: white;
-  }
-  table{
-    border: none;
   }
   .blue-line{
     background-color: rgb(6, 145, 191);
