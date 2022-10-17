@@ -1,7 +1,8 @@
 *{
-    padding: 0;
+    padding-left: 2px;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 h1{
     width: 800px;
@@ -30,23 +31,48 @@ h1{
 .background-yellow{
     background-color: yellow;
 }
-/* Inizio tabella */
-table{
-  border: none;
+.list-class{
+  padding-left: 15px;
 }
-
+/* Table */
+table{
+  border-spacing: 0;
+}
   th, td ,tr{
     padding-top: 10px;
     padding-bottom: 20px;
     padding-right: 40px;
   }
-
   thead{
     color: white;
   }
   .blue-line{
-    background-color: rgb(6, 145, 191);
+    background-color: rgb(32, 169, 229);
   }
   .lightblue-line{
-    background-color: rgb(112, 188, 214);
+    background-color: rgb(177, 229, 242);
+  }
+  .footer-size{
+    width: 312px;
+  }
+  /* Images footer */
+  .img-footer-monitor{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/monitor.jpg");
+  }
+  .img-footer-graphic{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+  }
+  .title-footer{
+    color: grey;
+  }
+  .lorem-white{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
   }
