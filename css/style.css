@@ -17,3 +17,13 @@
     width: 200px;
     padding-top: 50px;
 }
+.litte-title{
+    color: grey;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+.background-yellow{
+    background-color: yellow;
+}
