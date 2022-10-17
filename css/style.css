@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{
+    width: 800px;
+}
 /* Background header */
 .head{
     height: 100px;
@@ -27,3 +30,20 @@
 .background-yellow{
     background-color: yellow;
 }
+  table, th, td ,tr{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  }
+  thead{
+    color: white;
+  }
+  table{
+    border: none;
+  }
+  .blue-line{
+    background-color: rgb(6, 145, 191);
+  }
+  .lightblue-line{
+    background-color: rgb(112, 188, 214);
+  }
